@@ -43,7 +43,7 @@ def CalculateSpeed(pokemon):
 
 
 def WhoAttacks(pokemon1, pokemon2):
-    if (CalculateSpeed(pokemon1) > CalculateSpeed(pokemon1)):
+    if (CalculateSpeed(pokemon1) > CalculateSpeed(pokemon2)):
         return pokemon1
     else:
         return pokemon2
