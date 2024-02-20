@@ -1,6 +1,5 @@
 import random
 
-
 class Pokemon:
     def __init__(self, name, level, strength, speed, pokemon_type, life):
         self.name = name
@@ -79,11 +78,7 @@ FireBird = Pokemon("FireBird", 64, 10, 1, "fire", 20)
 player1 = player([FireTurtle, FireDragon, WaterTurtle, WindTurtle])
 player2 = player([WindDragon, WaterDragon, EarthDragon, EarthTurtle])
 
-# pokemon1=pokemon2=None
-"""
-if player1.pokemons is not None and player2.pokemons is not None:
 
-"""
 pokemon1 = player1.pickPokemon()
 pokemon2 = player2.pickPokemon()
 while player1.pokemons is not None and player2.pokemons is not None:
