@@ -37,10 +37,8 @@ def modifier_calculator(attacker, defender):
                     return 2
             return 1
 
-
 def CalculateSpeed(pokemon):
     return pokemon.speed + random.randint(1, 20)
-
 
 def WhoAttacks(pokemon1, pokemon2):
     if (CalculateSpeed(pokemon1) > CalculateSpeed(pokemon2)):
@@ -53,15 +51,15 @@ class player:
         self.pokemons = pokemons
 
     def pickPokemon(self):
-        if len(self.pokemons) > 0:
+        if self.pokemons is not None and len(self.pokemons) > 0 :
             return self.pokemons[random.randint(0, len(self.pokemons) - 1)]
-        return None
+        #return None
 
 
 def isAlive(x):
     if x is not None:
         return x.life > 0 and x.life <= 120
-    return None
+    #return None
 
 
 FireDragon = Pokemon("FireDragon", 34, 7, 3, "fire", 70)
@@ -80,11 +78,14 @@ FireBird = Pokemon("FireBird", 64, 10, 1, "fire", 20)
 ### the plan we need to have a loop
 player1 = player([FireTurtle, FireDragon, WaterTurtle, WindTurtle])
 player2 = player([WindDragon, WaterDragon, EarthDragon, EarthTurtle])
-pokemon1=pokemon2=None
-if player1.pokemons is not None and player2.pokemons is not None:
-    pokemon1 = player1.pickPokemon()
-    pokemon2 = player2.pickPokemon()
 
+# pokemon1=pokemon2=None
+"""
+if player1.pokemons is not None and player2.pokemons is not None:
+
+"""
+pokemon1 = player1.pickPokemon()
+pokemon2 = player2.pickPokemon()
 while player1.pokemons is not None and player2.pokemons is not None:
 
     while pokemon1 is not None and isAlive(pokemon1) and pokemon2 is not None and isAlive(pokemon2):
@@ -101,16 +102,21 @@ while player1.pokemons is not None and player2.pokemons is not None:
 
     if isAlive(pokemon1):
         # we need to remove pokemon 2 from player2 arsenal
-        if player2.pokemons is not None:
+        if pokemon2 in player2.pokemons:
+            player2.pokemons.remove(pokemon2)
             if pokemon2 in player2.pokemons:
-                player2.pokemons.remove(pokemon2)
-            pokemon2 = player2.pickPokemon()
+                pokemon2 = player2.pickPokemon()
+        else:
+            break
+
     else:
         # we need to remove pokemon 1 from player 1 arsenal
-        if player1.pokemons is not None:
-            if pokemon1 in player1.pokemons:
-                player1.pokemons.remove(pokemon1)
-            pokemon1 = player1.pickPokemon()
+        if pokemon1 in player1.pokemons:
+            player1.pokemons.remove(pokemon1)
+            if player1.pokemons is not None:
+                pokemon1 = player1.pickPokemon()
+        else:
+            break
 
 if player1.pokemons is None and player2.pokemons is None:
     print("Its a tie")
