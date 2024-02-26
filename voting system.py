@@ -55,23 +55,21 @@ class candidate:
 
 class election:
     def __init__(self, candidates, voters):
-        self.candidates = {candidate:0 for candidate in candidates }
+        self.candidates = {candidate: 0 for candidate in candidates}
         self.voters = voters
-        self.votes_cast=[]
+        self.votes_cast = []
 
-    def voter_wants_to_vote(self,voter):
+    def voter_wants_to_vote(self, voter):
         vote = voter.voting()
         if vote is not None and vote not in self.votes_cast:
-                self.votes_cast.append(vote)
-                self.candidates[vote.candidate]+=1
+            self.votes_cast.append(vote)
+            self.candidates[vote.candidate] += 1
 
     def return_winner(self):
-        max_index=0
-        max_val=self.candidates[0]
-        for k,v in self.candidates:
+        max_index = 0
+        max_val = self.candidates[0]
+        for k, v in self.candidates:
             if v > max_val:
-                max_index=k
-                max_val=v
+                max_index = k
+                max_val = v
         return max_index
-
-
