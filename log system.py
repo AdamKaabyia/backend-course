@@ -1,5 +1,6 @@
 import datetime
 
+
 def log_factory(include_timestamp=False, include_level=False):
     def log_message(message, level='INFO'):
         timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") if include_timestamp else ''
@@ -23,7 +24,8 @@ def log_processor_factory(logs):
             if '[' in log and ']' in log and ':' in log:
                 try:
                     timestamp_end_idx = log.index(']') + 2
-                    log_time = datetime.datetime.strptime(log[timestamp_end_idx:timestamp_end_idx+19], "%Y-%m-%d %H:%M:%S")
+                    log_time = datetime.datetime.strptime(log[timestamp_end_idx:timestamp_end_idx + 19],
+                                                          "%Y-%m-%d %H:%M:%S")
                     if start_time <= log_time <= end_time:
                         filtered_logs.append(log)
                 except ValueError:
@@ -44,7 +46,6 @@ basic_log = log_factory()
 timestamped_log = log_factory(include_timestamp=True)
 detailed_log = log_factory(include_timestamp=True, include_level=True)
 
-
 logs = [
     basic_log('A simple log message'),
     timestamped_log('A log message with timestamp'),
@@ -54,4 +55,4 @@ logs = [
 processor = log_processor_factory(logs)
 print(processor['filter_no_timestamp']())
 print(processor['filter_by_timestamp_range']("2023-01-01 00:00:00", "2024-12-31 23:59:59"))
-print(processor['filter_short_messages']())
+print(processor['filter_short_messages'](5000))
