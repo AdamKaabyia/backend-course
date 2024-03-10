@@ -90,7 +90,9 @@ def main():
     while True:
         command = input("Enter command (add_electronics, add_travel, add_wearable, remove, list, list by category, or quit): ").lower()
         match command:
+        ### in general - no input validation. what if the user puts in something wrong?
             case "add_electronics":
+                ### DRY with many properties below
                 name = input("Enter electronics name: ")
                 weight = int(input("Enter weight: "))
                 brand = input("Enter brand: ")
@@ -102,6 +104,7 @@ def main():
                         break
                     property_value = input(f"Enter value for {property_name}: ")
                     extra_properties[property_name] = property_value
+                ### if putting the item inside the bag is impossible, is there a reason to create the item? same for all the rest of item craetions
                 item = Electronics(name, weight, brand, connectivity, **extra_properties)
                 print(bag.add_item(item))
 
@@ -133,6 +136,7 @@ def main():
                         break
                     property_value = input(f"Enter value for {property_name}: ")
                     extra_properties[property_name] = property_value
+                    ### nice usage of kwargs
                 item = Wearable(name, weight, brand, has_case, **extra_properties)
                 print(bag.add_item(item))
 
