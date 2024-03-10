@@ -6,7 +6,7 @@ import json
 import matplotlib.pyplot as plt
 from concurrent.futures import ThreadPoolExecutor
 
-api_key = 
+from config import api_key
 
 
 def fetch_data_for_period(start_date, end_date):
