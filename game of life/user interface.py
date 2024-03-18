@@ -3,11 +3,9 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import logging
 
-# Initialize logging
 logging.basicConfig(filename='logs.txt', level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
 
 
-# GUI Update Function
 def update(frameNum, img, grid_obj, num_rounds, previous_states):
     # Check if we have reached the desired number of rounds
     if frameNum == num_rounds:
