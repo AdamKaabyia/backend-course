@@ -1,59 +1,79 @@
-import requests
-from bs4 import BeautifulSoup
-import pandas as pd
-import matplotlib.pyplot as plt
+import random
+
+d = 'O'
+
+"""
+
+"""
+def ib(s):
+    b = []
+    for _ in range(s):
+        r = []
+        for _ in range(s):
+            r.append(d)
+        b.append(r)
+    return b
 
 
-def fetch_games_data(url):
-    response = requests.get(url)
-    if response.status_code == 200:
-        soup = BeautifulSoup(response.text, 'html.parser')
-        #print(soup)
-        games = soup.find_all('div', class_='tab_item_name')
-        games_data = []
-        for game in games:
-            title = game.find('span', class_='top_tag').text
-            genres_div = game.find('div', class_='tab_item_name').find_next()
-            genres_text = genres_div.text.strip() if genres_div else 'No Genres Found'
-            games_data.append({'Title': title, 'Genres': genres_text})
+def pb(b):
+    for r in b:
+        print(" ".join(r))
 
-        return pd.DataFrame(games_data)
+
+def ps(b, z):
+    d = random.choice(['h', 'v'])
+    s = len(b)
+
+    if d == 'h':
+        r = random.randint(0, s - 1)
+        c = random.randint(0, s - z)
+
+        for i in range(z):
+            b[r][c + i] = 'S'
+
     else:
-        print(f"Failed to fetch data from {url}")
-        return pd.DataFrame()
+        r = random.randint(0, s - z)
+        c = random.randint(0, s - 1)
 
-# Function to plot top tags
-def plot_top_tags(data):
-    tag_counts = data.explode('Tags')['Tags'].value_counts()
-    plt.figure(figsize=(10, 6))
-    tag_counts.head(10).plot(kind='bar')
-    plt.title('Top 10 Most Appeared Tags')
-    plt.xlabel('Tags')
-    plt.ylabel('Frequency')
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-    plt.show()
+        for i in range(z):
+            b[r + i][c] = 'S'
 
-# Function to get statistics for a user-specified tag
-def get_tag_statistics(data):
-    user_tag = input("Enter a tag to see its statistics: ").strip()
-    if user_tag:
-        tag_counts = data.explode('Tags')['Tags'].value_counts()
-        if user_tag in tag_counts:
-            total_tags = tag_counts.sum()
-            tag_percentage = (tag_counts[user_tag] / total_tags) * 100
-            print(f"{user_tag} appears in {tag_percentage:.2f}% of the games list.")
+
+def gug(s):
+    while True:
+        try:
+            g = int(input(f"Enter a guess (0 to {s - 1}): "))
+            if 0 <= g < s:
+                return g
+            else:
+                print("Invalid input. Please enter a number within the range.")
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
+
+
+def pbp(s, n):
+    b = ib(s)
+
+    for _ in range(n):
+        ps(b, random.randint(2, 4))
+
+    pb(b)
+
+    for _ in range(10):
+        gr = gug(s)
+        gc = gug(s)
+
+        if b[gr][gc] == 'S':
+            b[gr][gc] = 'X'
         else:
-            print(f"The tag '{user_tag}' was not found in the games list.")
-    else:
-        print("No tag entered.")
+            pass
+        pb(b)
 
-# Main process
-if __name__ == '__main__':
-    url = "https://store.steampowered.com/search/?filter=topsellers"
-    game_data = fetch_games_data(url)
-    if not game_data.empty:
-        plot_top_tags(game_data)
-        get_tag_statistics(game_data)
-    else:
-        print("No game data was found.")
+        if all('S' not in r for r in b):
+            break
+
+    print("Game over. Thanks for playing!")
+
+
+if __name__ == "__main__":
+    pbp(5, 3)
