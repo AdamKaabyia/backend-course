@@ -1,0 +1,315 @@
+2024-03-12 08:51:06 - INFO - Truck Simulator started.
+2024-03-12 08:51:06 - INFO - Loading plugins...
+2024-03-12 08:51:06 - INFO - Loading plugin: asphalt
+2024-03-12 08:51:06 - INFO - Registered plugin class: Asphalt
+2024-03-12 08:51:06 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 08:51:06 - INFO - Loading plugin: road_type_base
+2024-03-12 08:51:06 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 08:51:06 - INFO - Loading plugin: truck_base
+2024-03-12 08:51:06 - INFO - Registered plugin class: ABC
+2024-03-12 08:51:06 - INFO - Registered plugin class: TruckBase
+2024-03-12 08:51:06 - INFO - Loading plugin: Volvo
+2024-03-12 08:51:06 - INFO - Registered plugin class: TruckBase
+2024-03-12 08:51:06 - INFO - Registered plugin class: Volvo
+2024-03-12 08:51:17 - INFO - User selected volvo truck for asphalt road.
+2024-03-12 09:08:27 - INFO - Truck Simulator started.
+2024-03-12 09:08:27 - INFO - Loading plugins...
+2024-03-12 09:08:27 - INFO - Loading plugin: asphalt
+2024-03-12 09:08:27 - INFO - Registered plugin class: Asphalt
+2024-03-12 09:08:27 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:08:27 - INFO - Loading plugin: road_type_base
+2024-03-12 09:08:27 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:08:27 - INFO - Loading plugin: truck_base
+2024-03-12 09:08:27 - INFO - Registered plugin class: ABC
+2024-03-12 09:08:27 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:08:27 - INFO - Loading plugin: Volvo
+2024-03-12 09:08:27 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:08:27 - INFO - Registered plugin class: Volvo
+2024-03-12 09:10:12 - INFO - Truck Simulator started.
+2024-03-12 09:10:12 - INFO - Loading plugins...
+2024-03-12 09:10:12 - INFO - Loading plugin: asphalt
+2024-03-12 09:10:12 - INFO - Registered plugin class: Asphalt
+2024-03-12 09:10:12 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:10:12 - INFO - Loading plugin: road_type_base
+2024-03-12 09:10:12 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:10:12 - INFO - Loading plugin: truck_base
+2024-03-12 09:10:12 - INFO - Registered plugin class: ABC
+2024-03-12 09:10:12 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:10:12 - INFO - Loading plugin: Volvo
+2024-03-12 09:10:12 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:10:12 - INFO - Registered plugin class: Volvo
+2024-03-12 09:10:24 - INFO - Truck Simulator started.
+2024-03-12 09:10:24 - INFO - Loading plugins...
+2024-03-12 09:10:24 - INFO - Loading plugin: asphalt
+2024-03-12 09:10:24 - INFO - Registered plugin class: Asphalt
+2024-03-12 09:10:24 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:10:24 - INFO - Loading plugin: road_type_base
+2024-03-12 09:10:24 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:10:24 - INFO - Loading plugin: truck_base
+2024-03-12 09:10:24 - INFO - Registered plugin class: ABC
+2024-03-12 09:10:24 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:10:24 - INFO - Loading plugin: Volvo
+2024-03-12 09:10:24 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:10:24 - INFO - Registered plugin class: Volvo
+2024-03-12 09:10:28 - INFO - The volvo truck can successfully travel the asphalt road.
+2024-03-12 09:18:21 - INFO - Truck Simulator started.
+2024-03-12 09:18:21 - INFO - Loading plugins...
+2024-03-12 09:18:21 - INFO - Loading plugin: asphalt
+2024-03-12 09:18:21 - INFO - Registered plugin class: Asphalt
+2024-03-12 09:18:21 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:18:21 - INFO - Loading plugin: road_type_base
+2024-03-12 09:18:21 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:18:21 - INFO - Loading plugin: truck_base
+2024-03-12 09:18:21 - INFO - Registered plugin class: ABC
+2024-03-12 09:18:21 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:18:21 - INFO - Loading plugin: Volvo
+2024-03-12 09:18:21 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:18:21 - INFO - Registered plugin class: Volvo
+2024-03-12 09:18:27 - INFO - The volvo truck can successfully travel the asphalt road.
+2024-03-12 09:18:35 - INFO - Loading plugins...
+2024-03-12 09:18:35 - INFO - Loading plugin: asphalt
+2024-03-12 09:18:35 - INFO - Registered plugin class: Asphalt
+2024-03-12 09:18:35 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:18:35 - INFO - Loading plugin: road_type_base
+2024-03-12 09:18:35 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:18:35 - INFO - Loading plugin: truck_base
+2024-03-12 09:18:35 - INFO - Registered plugin class: ABC
+2024-03-12 09:18:35 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:18:35 - INFO - Loading plugin: Volvo
+2024-03-12 09:18:35 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:18:35 - INFO - Registered plugin class: Volvo
+2024-03-12 09:18:39 - INFO - The volvo truck can successfully travel the asphalt road.
+2024-03-12 09:18:42 - INFO - Loading plugins...
+2024-03-12 09:18:42 - INFO - Loading plugin: asphalt
+2024-03-12 09:18:42 - INFO - Registered plugin class: Asphalt
+2024-03-12 09:18:42 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:18:42 - INFO - Loading plugin: road_type_base
+2024-03-12 09:18:42 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:18:42 - INFO - Loading plugin: truck_base
+2024-03-12 09:18:42 - INFO - Registered plugin class: ABC
+2024-03-12 09:18:42 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:18:42 - INFO - Loading plugin: Volvo
+2024-03-12 09:18:42 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:18:42 - INFO - Registered plugin class: Volvo
+2024-03-12 09:18:47 - INFO - The volvo truck can successfully travel the asphalt road.
+2024-03-12 09:39:40 - INFO - Truck Simulator started.
+2024-03-12 09:39:40 - INFO - Loading plugins...
+2024-03-12 09:39:40 - INFO - Loading plugin: asphalt
+2024-03-12 09:39:40 - INFO - Registered plugin class: Asphalt
+2024-03-12 09:39:40 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:39:40 - INFO - Loading plugin: road_type_base
+2024-03-12 09:39:40 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:39:40 - INFO - Loading plugin: truck_base
+2024-03-12 09:39:40 - INFO - Registered plugin class: ABC
+2024-03-12 09:39:40 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:39:40 - INFO - Loading plugin: Volvo
+2024-03-12 09:39:40 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:39:40 - INFO - Registered plugin class: Volvo
+2024-03-12 09:39:44 - INFO - The volvo truck can successfully travel the asphalt road.
+2024-03-12 09:40:17 - INFO - Truck Simulator started.
+2024-03-12 09:40:17 - INFO - Loading plugins...
+2024-03-12 09:40:17 - INFO - Loading plugin: asphalt
+2024-03-12 09:40:17 - INFO - Registered plugin class: Asphalt
+2024-03-12 09:40:17 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:40:17 - INFO - Loading plugin: road_type_base
+2024-03-12 09:40:17 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:40:17 - INFO - Loading plugin: truck_base
+2024-03-12 09:40:17 - INFO - Registered plugin class: ABC
+2024-03-12 09:40:17 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:40:17 - INFO - Loading plugin: Volvo
+2024-03-12 09:40:17 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:40:17 - INFO - Registered plugin class: Volvo
+2024-03-12 09:43:54 - INFO - Truck Simulator started.
+2024-03-12 09:43:54 - INFO - Loading plugins...
+2024-03-12 09:43:54 - INFO - Loading plugin: asphalt
+2024-03-12 09:43:54 - INFO - Registered plugin class: Asphalt
+2024-03-12 09:43:54 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:43:54 - INFO - Loading plugin: road_type_base
+2024-03-12 09:43:54 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:43:54 - INFO - Loading plugin: truck_base
+2024-03-12 09:43:54 - INFO - Registered plugin class: ABC
+2024-03-12 09:43:54 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:43:54 - INFO - Loading plugin: Volvo
+2024-03-12 09:43:54 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:43:54 - INFO - Registered plugin class: Volvo
+2024-03-12 09:44:00 - INFO - The volvo truck can successfully travel the asphalt road.
+2024-03-12 09:53:28 - INFO - Truck Simulator started.
+2024-03-12 09:53:28 - INFO - Loading plugins...
+2024-03-12 09:53:28 - INFO - Loading plugin: asphalt
+2024-03-12 09:53:28 - INFO - Registered plugin class: Asphalt
+2024-03-12 09:53:28 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:53:28 - INFO - Loading plugin: road_type_base
+2024-03-12 09:53:28 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:53:28 - INFO - Loading plugin: truck_base
+2024-03-12 09:53:28 - INFO - Registered plugin class: ABC
+2024-03-12 09:53:28 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:53:28 - INFO - Loading plugin: Volvo
+2024-03-12 09:53:28 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:53:28 - INFO - Registered plugin class: Volvo
+2024-03-12 09:53:33 - INFO - The volvo truck can successfully travel the asphalt road.
+2024-03-12 09:56:16 - INFO - Truck Simulator started.
+2024-03-12 09:56:16 - INFO - Loading plugins...
+2024-03-12 09:56:16 - INFO - Loading plugin: asphalt
+2024-03-12 09:56:16 - INFO - Registered plugin class: Asphalt
+2024-03-12 09:56:16 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:56:16 - INFO - Loading plugin: road_type_base
+2024-03-12 09:56:16 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:56:16 - INFO - Loading plugin: truck_base
+2024-03-12 09:56:16 - INFO - Registered plugin class: ABC
+2024-03-12 09:56:16 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:56:16 - INFO - Loading plugin: Volvo
+2024-03-12 09:56:16 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:56:16 - INFO - Registered plugin class: Volvo
+2024-03-12 09:56:19 - INFO - The volvo truck can successfully travel the asphalt road.
+2024-03-12 09:57:22 - INFO - Truck Simulator started.
+2024-03-12 09:57:22 - INFO - Loading plugins...
+2024-03-12 09:57:22 - INFO - Loading plugin: asphalt
+2024-03-12 09:57:22 - INFO - Registered plugin class: Asphalt
+2024-03-12 09:57:22 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:57:22 - INFO - Loading plugin: road_type_base
+2024-03-12 09:57:22 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:57:22 - INFO - Loading plugin: truck_base
+2024-03-12 09:57:22 - INFO - Registered plugin class: ABC
+2024-03-12 09:57:22 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:57:22 - INFO - Loading plugin: Volvo
+2024-03-12 09:57:22 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:57:22 - INFO - Registered plugin class: Volvo
+2024-03-12 09:57:59 - INFO - Truck Simulator started.
+2024-03-12 09:57:59 - INFO - Loading plugins...
+2024-03-12 09:57:59 - INFO - Loading plugin: asphalt
+2024-03-12 09:57:59 - INFO - Registered plugin class: Asphalt
+2024-03-12 09:57:59 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:57:59 - INFO - Loading plugin: road_type_base
+2024-03-12 09:57:59 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 09:57:59 - INFO - Loading plugin: truck_base
+2024-03-12 09:57:59 - INFO - Registered plugin class: ABC
+2024-03-12 09:57:59 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:57:59 - INFO - Loading plugin: Volvo
+2024-03-12 09:57:59 - INFO - Registered plugin class: TruckBase
+2024-03-12 09:57:59 - INFO - Registered plugin class: Volvo
+2024-03-12 09:58:03 - INFO - The volvo truck can successfully travel the asphalt road.
+2024-03-12 10:00:16 - INFO - Truck Simulator started.
+2024-03-12 10:00:16 - INFO - Loading plugins...
+2024-03-12 10:00:16 - INFO - Loading plugin: asphalt
+2024-03-12 10:00:16 - INFO - Registered plugin class: Asphalt
+2024-03-12 10:00:16 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 10:00:16 - INFO - Loading plugin: road_type_base
+2024-03-12 10:00:16 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 10:00:16 - INFO - Loading plugin: truck_base
+2024-03-12 10:00:16 - INFO - Registered plugin class: ABC
+2024-03-12 10:00:16 - INFO - Registered plugin class: TruckBase
+2024-03-12 10:00:16 - INFO - Loading plugin: Volvo
+2024-03-12 10:00:16 - INFO - Registered plugin class: TruckBase
+2024-03-12 10:00:16 - INFO - Registered plugin class: Volvo
+2024-03-12 10:00:20 - INFO - The volvo truck can successfully travel the asphalt road.
+2024-03-12 10:00:20 - INFO - Journey on Asphalt: 100km
+2024-03-12 10:00:20 - INFO - Fuel consumed: 40.00, Wheel condition: 99.0, Driver's mental health: 110.0
+2024-03-12 10:00:20 - INFO - The journey was successful.
+2024-03-12 10:00:46 - INFO - Truck Simulator started.
+2024-03-12 10:00:46 - INFO - Loading plugins...
+2024-03-12 10:00:46 - INFO - Loading plugin: asphalt
+2024-03-12 10:00:46 - INFO - Registered plugin class: Asphalt
+2024-03-12 10:00:46 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 10:00:46 - INFO - Loading plugin: road_type_base
+2024-03-12 10:00:46 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 10:00:46 - INFO - Loading plugin: truck_base
+2024-03-12 10:00:46 - INFO - Registered plugin class: ABC
+2024-03-12 10:00:46 - INFO - Registered plugin class: TruckBase
+2024-03-12 10:00:46 - INFO - Loading plugin: Volvo
+2024-03-12 10:00:46 - INFO - Registered plugin class: TruckBase
+2024-03-12 10:00:46 - INFO - Registered plugin class: Volvo
+2024-03-12 10:00:50 - INFO - The volvo truck can successfully travel the asphalt road.
+2024-03-12 10:00:50 - INFO - Journey on Asphalt: 100km
+2024-03-12 10:00:50 - INFO - Fuel consumed: 40.00, Wheel condition: 99.0, Driver's mental health: 110.0
+2024-03-12 10:00:50 - INFO - The journey was successful.
+2024-03-12 10:00:52 - INFO - Loading plugins...
+2024-03-12 10:00:52 - INFO - Loading plugin: asphalt
+2024-03-12 10:00:52 - INFO - Registered plugin class: Asphalt
+2024-03-12 10:00:52 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 10:00:52 - INFO - Loading plugin: road_type_base
+2024-03-12 10:00:52 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 10:00:52 - INFO - Loading plugin: truck_base
+2024-03-12 10:00:52 - INFO - Registered plugin class: ABC
+2024-03-12 10:00:52 - INFO - Registered plugin class: TruckBase
+2024-03-12 10:00:52 - INFO - Loading plugin: Volvo
+2024-03-12 10:00:52 - INFO - Registered plugin class: TruckBase
+2024-03-12 10:00:52 - INFO - Registered plugin class: Volvo
+2024-03-12 10:00:55 - INFO - The volvo truck can successfully travel the asphalt road.
+2024-03-12 10:00:55 - INFO - Journey on Asphalt: 100km
+2024-03-12 10:00:55 - INFO - Fuel consumed: 40.00, Wheel condition: 99.0, Driver's mental health: 110.0
+2024-03-12 10:00:55 - INFO - The journey was successful.
+2024-03-12 10:00:57 - INFO - Loading plugins...
+2024-03-12 10:00:57 - INFO - Loading plugin: asphalt
+2024-03-12 10:00:57 - INFO - Registered plugin class: Asphalt
+2024-03-12 10:00:57 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 10:00:57 - INFO - Loading plugin: road_type_base
+2024-03-12 10:00:57 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 10:00:57 - INFO - Loading plugin: truck_base
+2024-03-12 10:00:57 - INFO - Registered plugin class: ABC
+2024-03-12 10:00:57 - INFO - Registered plugin class: TruckBase
+2024-03-12 10:00:57 - INFO - Loading plugin: Volvo
+2024-03-12 10:00:57 - INFO - Registered plugin class: TruckBase
+2024-03-12 10:00:57 - INFO - Registered plugin class: Volvo
+2024-03-12 10:00:59 - INFO - The volvo truck can successfully travel the asphalt road.
+2024-03-12 10:00:59 - INFO - Journey on Asphalt: 100km
+2024-03-12 10:00:59 - INFO - Fuel consumed: 40.00, Wheel condition: 99.0, Driver's mental health: 110.0
+2024-03-12 10:00:59 - INFO - The journey was successful.
+2024-03-12 10:01:00 - INFO - Loading plugins...
+2024-03-12 10:01:00 - INFO - Loading plugin: asphalt
+2024-03-12 10:01:00 - INFO - Registered plugin class: Asphalt
+2024-03-12 10:01:00 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 10:01:00 - INFO - Loading plugin: road_type_base
+2024-03-12 10:01:00 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 10:01:00 - INFO - Loading plugin: truck_base
+2024-03-12 10:01:00 - INFO - Registered plugin class: ABC
+2024-03-12 10:01:00 - INFO - Registered plugin class: TruckBase
+2024-03-12 10:01:00 - INFO - Loading plugin: Volvo
+2024-03-12 10:01:00 - INFO - Registered plugin class: TruckBase
+2024-03-12 10:01:00 - INFO - Registered plugin class: Volvo
+2024-03-12 10:01:02 - INFO - The volvo truck can successfully travel the asphalt road.
+2024-03-12 10:01:02 - INFO - Journey on Asphalt: 100km
+2024-03-12 10:01:02 - INFO - Fuel consumed: 40.00, Wheel condition: 99.0, Driver's mental health: 110.0
+2024-03-12 10:01:02 - INFO - The journey was successful.
+2024-03-12 10:01:04 - INFO - Loading plugins...
+2024-03-12 10:01:04 - INFO - Loading plugin: asphalt
+2024-03-12 10:01:04 - INFO - Registered plugin class: Asphalt
+2024-03-12 10:01:04 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 10:01:04 - INFO - Loading plugin: road_type_base
+2024-03-12 10:01:04 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 10:01:04 - INFO - Loading plugin: truck_base
+2024-03-12 10:01:04 - INFO - Registered plugin class: ABC
+2024-03-12 10:01:04 - INFO - Registered plugin class: TruckBase
+2024-03-12 10:01:04 - INFO - Loading plugin: Volvo
+2024-03-12 10:01:04 - INFO - Registered plugin class: TruckBase
+2024-03-12 10:01:04 - INFO - Registered plugin class: Volvo
+2024-03-12 10:01:11 - INFO - The volvo truck can successfully travel the asphalt road.
+2024-03-12 10:01:11 - INFO - Journey on Asphalt: 100km
+2024-03-12 10:01:11 - INFO - Fuel consumed: 40.00, Wheel condition: 99.0, Driver's mental health: 110.0
+2024-03-12 10:01:11 - INFO - The journey was successful.
+2024-03-12 10:03:00 - INFO - Truck Simulator started.
+2024-03-12 10:03:00 - INFO - Loading plugins...
+2024-03-12 10:03:00 - INFO - Loading plugin: asphalt
+2024-03-12 10:03:00 - INFO - Registered plugin class: Asphalt
+2024-03-12 10:03:00 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 10:03:00 - INFO - Loading plugin: road_type_base
+2024-03-12 10:03:00 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 10:03:00 - INFO - Loading plugin: truck_base
+2024-03-12 10:03:00 - INFO - Registered plugin class: ABC
+2024-03-12 10:03:00 - INFO - Registered plugin class: TruckBase
+2024-03-12 10:03:00 - INFO - Loading plugin: Volvo
+2024-03-12 10:03:00 - INFO - Registered plugin class: TruckBase
+2024-03-12 10:03:00 - INFO - Registered plugin class: Volvo
+2024-03-12 10:03:04 - ERROR - The volvo truck cannot complete the asphalt road due to insufficient resources.
+2024-03-12 10:03:08 - INFO - Loading plugins...
+2024-03-12 10:03:08 - INFO - Loading plugin: asphalt
+2024-03-12 10:03:08 - INFO - Registered plugin class: Asphalt
+2024-03-12 10:03:08 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 10:03:08 - INFO - Loading plugin: road_type_base
+2024-03-12 10:03:08 - INFO - Registered plugin class: RoadTypeBase
+2024-03-12 10:03:08 - INFO - Loading plugin: truck_base
+2024-03-12 10:03:08 - INFO - Registered plugin class: ABC
+2024-03-12 10:03:08 - INFO - Registered plugin class: TruckBase
+2024-03-12 10:03:08 - INFO - Loading plugin: Volvo
+2024-03-12 10:03:08 - INFO - Registered plugin class: TruckBase
+2024-03-12 10:03:08 - INFO - Registered plugin class: Volvo
+2024-03-12 10:03:13 - ERROR - The volvo truck cannot complete the asphalt road due to insufficient resources.
