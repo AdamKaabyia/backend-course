@@ -48,18 +48,16 @@ class Election:
         return max(self.candidates, key=self.candidates.get)
 
 
-# Setup voters and candidates
+
 voters = [Voter(f"Voter {i}", 18 + i, f"Street {i} House {i}") for i in range(1, 6)]
+
 candidates = [Candidate(f"Candidate {i}", "President") for i in range(1, 3)]
 
-# Simulate an election
 election_2024 = Election(candidates)
 
-# Simulate voting
 for i, voter in enumerate(voters):
-    candidate_choice = candidates[i % len(candidates)] # Alternate candidate choice for voters
+    candidate_choice = candidates[i % len(candidates)]
     election_2024.cast_vote(voter, candidate_choice)
 
-# Determine the winner
 winner = election_2024.return_winner()
 print(f"The winner is {winner} with {election_2024.candidates[winner]} votes.")

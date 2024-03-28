@@ -85,19 +85,27 @@ class Bag:
             print("Invalid category.")
 
 
-# CLI interaction
 def main():
     bag = Bag()
     while True:
         command = input("Enter command (add_electronics, add_travel, add_wearable, remove, list, list by category, or quit): ").lower()
         match command:
+        ### in general - no input validation. what if the user puts in something wrong?
             case "add_electronics":
+                ### DRY with many properties below
                 name = input("Enter electronics name: ")
                 weight = int(input("Enter weight: "))
                 brand = input("Enter brand: ")
                 connectivity = input("Enter connectivity: ")
-                # For simplicity, we are not adding extra properties here.
-                item = Electronics(name, weight, brand, connectivity)
+                extra_properties = {}
+                while True:
+                    property_name = input("Enter extra property name (or leave blank to finish): ").strip()
+                    if not property_name:
+                        break
+                    property_value = input(f"Enter value for {property_name}: ")
+                    extra_properties[property_name] = property_value
+                ### if putting the item inside the bag is impossible, is there a reason to create the item? same for all the rest of item craetions
+                item = Electronics(name, weight, brand, connectivity, **extra_properties)
                 print(bag.add_item(item))
 
             case "add_travel":
@@ -106,7 +114,14 @@ def main():
                 color = input("Enter color: ")
                 cost = int(input("Enter cost: "))
                 bought_from = input("Enter bought from: ")
-                item = TravelItem(name, weight, color, cost, bought_from)
+                extra_properties = {}
+                while True:
+                    property_name = input("Enter extra property name (or leave blank to finish): ").strip()
+                    if not property_name:
+                        break
+                    property_value = input(f"Enter value for {property_name}: ")
+                    extra_properties[property_name] = property_value
+                item = TravelItem(name, weight, color, cost, bought_from, **extra_properties)
                 print(bag.add_item(item))
 
             case "add_wearable":
@@ -114,8 +129,15 @@ def main():
                 weight = int(input("Enter weight: "))
                 brand = input("Enter brand: ")
                 has_case = input("Has case? (yes/no): ").lower() == 'yes'
-                # For simplicity, we are not adding extra properties here.
-                item = Wearable(name, weight, brand, has_case)
+                extra_properties = {}
+                while True:
+                    property_name = input("Enter extra property name (or leave blank to finish): ").strip()
+                    if not property_name:
+                        break
+                    property_value = input(f"Enter value for {property_name}: ")
+                    extra_properties[property_name] = property_value
+                    ### nice usage of kwargs
+                item = Wearable(name, weight, brand, has_case, **extra_properties)
                 print(bag.add_item(item))
 
             case "remove":
