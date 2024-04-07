@@ -1,0 +1,16 @@
+SocialMediaPlatform Documentation
+__init__(self): Initializes the SocialMediaPlatform instance with an empty list of users.
+register_user(self, username): Registers a new user with the given username if it's not already taken.
+Time Complexity: O(n), where n is the number of users.
+_is_username_taken(self, username): Checks if the given username is already taken by any user.
+Time Complexity: O(n), where n is the number of users.
+get_user_by_username(self, username): Retrieves a User object by username.
+Time Complexity: O(n), where n is the number of users.
+generate_timeline(self, username): Generates a timeline of posts from users that the specified user follows.
+Time Complexity: O(u*p), where u is the number of users being followed and p is the total number of posts.
+User Documentation
+__init__(self, username): Initializes a User instance with a given username and an empty list of users being followed.
+follow(self, other_user): Follows another user if not already following.
+Time Complexity: O(f), where f is the number of followed users.
+post_message(self, message): Posts a message to the global list of posts.
+Time Complexity: O(1), assuming appending to the list is a constant time operation.
