@@ -1,0 +1,11 @@
+/project_root
+    /app
+        __init__.py
+        main.py          # FastAPI app instance, routes
+        models.py        # Database models
+        schemas.py       # Pydantic models (schemas)
+        auth.py          # Authentication and authorization logic
+        dependencies.py  # Dependencies for routes
+        logging_decorator.py # Decorator for logging
+    .env                # Environment variables
+    requirements.txt    # Project dependencies

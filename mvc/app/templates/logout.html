@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Logged Out</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <p>You have been logged out. Goodbye!</p>
+    <img src="{{ url_for('static', filename='images/goodbye.jpg') }}" alt="Goodbye!">
+    <br>
+    <button onclick="window.location.href='/'">Go to Login Page</button>
+</body>
+</html>

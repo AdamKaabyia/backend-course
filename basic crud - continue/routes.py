@@ -2,13 +2,13 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 import db_manager
 import security
-from models import User, Token
+from models import User, Token, UserInDB
 
 router = APIRouter()
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
-# Token endpoint for obtaining tokens
+
 @router.post("/token", response_model=Token)
 async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends()):
     user_dict = db_manager.get_user_by_username(form_data.username)
@@ -35,4 +35,3 @@ async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends(
 def read_students():
     return db_manager.get_all_students()
 
-# Add more routes for your CRUD operations and authentication

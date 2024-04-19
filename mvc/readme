@@ -1,0 +1,18 @@
+/mvc-app/
+|-- app/
+    |-- static/
+        |-- css/
+        |-- js/
+        |-- images/
+    |-- templates/
+        |-- login.html
+        |-- show_data.html
+        |-- logout.html
+    |-- __init__.py
+    |-- models.py
+    |-- views.py
+    |-- controllers.py
+|-- tests/
+    |-- test_app.py
+|-- config.py
+|-- run.py
